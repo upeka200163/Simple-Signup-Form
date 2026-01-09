@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* very close to image background */
+  background: linear-gradient(
+      rgba(0,0,0,0.35),
+      rgba(0,0,0,0.35)
+    ),
+    url("bg.jpg") center/cover no-repeat;
+}
+
+/* Glass card */
+.card {
+  width: 360px;
+  padding: 30px 25px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.22);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+/* Title */
+.card h2 {
+  color: #2de2e6;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* Input fields */
+.field {
+  background: #f2f2f2;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  margin-bottom: 14px;
+}
+
+.field i {
+  color: #555;
+  margin-right: 10px;
+}
+
+.field input {
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* Forgot */
+.forgot {
+  text-align: left;
+  font-size: 13px;
+  color: #fff;
+  margin: 10px 0 20px;
+}
+
+/* Sign up button */
+.signup-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: #0b4dbb;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/* OR */
+.or {
+  color: #fff;
+  margin: 18px 0;
+  font-size: 14px;
+}
+
+/* Social buttons */
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+.social button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.fb {
+  background: #1877f2;
+}
+
+.gm {
+  background: #e53935;
+}
+
+/* Login */
+.login {
+  margin-top: 18px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.login span {
+  color: #2de2e6;
+  font-weight: 600;
+  cursor: pointer;
+}
