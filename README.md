@@ -20,5 +20,4 @@ Installation
 Clone the repository:
 
 Bash
-git clone https://github.com/yourusername/panda-signup-form.git
-
+git clone : https://github.com/upeka200163/Simple-Signup-Form.git
