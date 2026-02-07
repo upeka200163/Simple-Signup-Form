@@ -1,0 +1,118 @@
+* {
+  margin: 0; padding: 0; box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4C430; /* The exact yellow from the image */
+}
+
+.panda-container { width: 380px; position: relative; }
+
+/* Panda Head */
+.panda {
+  width: 130px; height: 110px; background: white;
+  border: 4px solid #2d2d3a; border-radius: 50% 50% 45% 45%;
+  margin: 0 auto -15px auto; position: relative; z-index: 2;
+}
+
+.ear {
+  width: 40px; height: 40px; background: #2d2d3a;
+  border-radius: 50%; position: absolute; top: -10px; z-index: -1;
+}
+.ear.left { left: -5px; } .ear.right { right: -5px; }
+
+.eye-patch {
+  width: 32px; height: 38px; background: #2d2d3a;
+  border-radius: 50%; position: absolute; top: 28px;
+}
+.eye-patch.left { left: 22px; transform: rotate(10deg); }
+.eye-patch.right { right: 22px; transform: rotate(-10deg); }
+
+.eyeball {
+  width: 10px; height: 10px; background: white;
+  border-radius: 50%; position: absolute; top: 10px; left: 10px;
+}
+
+.blush {
+  width: 20px; height: 12px; background: #ffb6c1;
+  border-radius: 50%; position: absolute; top: 65px; opacity: 0.8;
+}
+.blush.left { left: 15px; } .blush.right { right: 15px; }
+
+.nose {
+  width: 14px; height: 10px; background: #2d2d3a;
+  border-radius: 50%; position: absolute; top: 70px; left: 50%; transform: translateX(-50%);
+}
+
+/* Hands Animation */
+.hand {
+  width: 40px; height: 50px; background: #2d2d3a;
+  border-radius: 15px; position: absolute;
+  bottom: -35px; transition: 0.5s ease-in-out; z-index: 5;
+}
+.left-hand { left: -20px; } .right-hand { right: -20px; }
+
+/* Move hands to eyes */
+.panda.look-away .left-hand { transform: translateY(-85px) translateX(45px) rotate(25deg); }
+.panda.look-away .right-hand { transform: translateY(-85px) translateX(-45px) rotate(-25deg); }
+
+/* Card Styling */
+.card {
+  background: rgb(39, 243, 131); padding: 45px 30px 40px;
+  border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center; position: relative; z-index: 1;
+}
+
+.card h2 { margin-bottom: 25px; font-weight: 600; color: #333; }
+
+.field {
+  background: #f2f2f2; border-radius: 10px;
+  display: flex; align-items: center; padding: 12px; margin-bottom: 12px;
+}
+
+.field i { color: #666; margin-right: 12px; width: 15px; }
+.field input { border: none; outline: none; background: transparent; width: 100%; font-size: 14px; }
+
+.signup-btn {
+  width: 100%; padding: 14px; border: none; border-radius: 10px;
+  background: #0b4dbb; color: white; font-weight: bold; cursor: pointer; margin: 10px 0;
+}
+.forgot { text-align: left; font-size: 13px; color: #666; margin: 5px 0 15px; }
+.or { color: #888; margin: 15px 0; font-size: 14px; }
+
+.social { display: flex; gap: 10px; margin-top: 10px; }
+.social button { flex: 1; padding: 10px; border-radius: 8px; border: none; color: white; cursor: pointer; font-size: 12px; }
+.fb { background: #1877f2; } .gm { background: #e53935; }
+
+.login-text { margin-top: 15px; font-size: 13px; color: #555; }
+.login-text span { color: #0b4dbb; font-weight: bold; cursor: pointer; }
+
+/* --- PANDA FEET (BOTTOM) --- */
+.feet-container {
+  position: absolute; bottom: -25px; left: 0; width: 100%;
+  display: flex; justify-content: space-around; pointer-events: none;
+}
+
+.foot {
+  width: 55px; height: 60px; background: #2d2d3a;
+  border-radius: 20px 20px 25px 25px;
+  border: 4px solid #F4C430; /* Creates the overlap look */
+  position: relative;
+}
+
+.toes {
+  width: 25px; height: 25px; background: rgba(255,255,255,0.2);
+  border-radius: 50%; position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%);
+}
+
+.toes::before, .toes::after {
+  content: ''; width: 10px; height: 10px; background: rgba(255,255,255,0.2);
+  border-radius: 50%; position: absolute; top: -12px;
+}
+.toes::before { left: -5px; }
+.toes::after { right: -5px; }
