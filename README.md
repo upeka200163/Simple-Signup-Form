@@ -4,17 +4,15 @@ A fun, interactive, and modern Sign-Up form built using HTML, CSS, and Vanilla J
 
 🌟 Features<br>
 
-*Interactive "Peek-a-Boo" Animation: The panda uses its paws to cover its eyes whenever the user focuses on the "Password" or "Confirm Password" input fields.
-*Custom CSS Illustration: The entire panda (face, ears, and paws) is created using pure CSS shapes, meaning no external image files are required for the character.
-*Signature Design: Features the distinct warm yellow background and dark charcoal panda details from the original reference.
-*Detailed Paw Pads: Includes the detailed bottom feet with white toe pads as seen in the final design.
-*Modern UI Components: A clean, white registration card with integrated icons, social login buttons (Facebook & Gmail), and a "Login Now" toggle.
+*Interactive "Peek-a-Boo" Animation: The panda uses its paws to cover its eyes whenever the user focuses on the "Password" or "Confirm Password" input fields.<br>
+*Custom CSS Illustration: The entire panda (face, ears, and paws) is created using pure CSS shapes, meaning no external image files are required for the character.<br>
+*Signature Design: Features the distinct warm yellow background and dark charcoal panda details from the original reference.<br>
+*Detailed Paw Pads: Includes the detailed bottom feet with white toe pads as seen in the final design.<br>
+*Modern UI Components: A clean, white registration card with integrated icons, social login buttons (Facebook & Gmail), and a "Login Now" toggle.<br>
 
 🛠️ Technologies Used<br>
-HTML5: For the semantic structure of the registration form.
-
-CSS3: Used for the panda drawing, layout positioning, and the smooth "hand-to-eye" transition effects.
-
+HTML5: For the semantic structure of the registration form.<br>
+CSS3: Used for the panda drawing, layout positioning, and the smooth "hand-to-eye" transition effects.<br>
 JavaScript (Vanilla): Simple event listeners to detect when the user is typing a password to trigger the panda's reaction.<br>
 <img width="1281" height="719" alt="Screenshot (196)" src="https://github.com/user-attachments/assets/20ec79c0-992c-420b-b161-7ff5af19c54a" />
 
