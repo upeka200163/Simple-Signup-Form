@@ -55,11 +55,7 @@ This project features a unique **CSS-drawn panda** that reacts to user input —
 
 ## 📸 Screenshots
 
-<div align="center">
-  <img src="assets/screenshots/splash.png" width="22%">
-  <img src="assets/screenshots/form.png" width="22%">
-  <img src="assets/screenshots/panda.png" width="22%">
-</div>
+<img width="1281" height="719" alt="Screenshot (196)" src="https://github.com/user-attachments/assets/20ec79c0-992c-420b-b161-7ff5af19c54a" />
 
 ---
 
@@ -110,15 +106,7 @@ Open index.html in your browser
 
 ---
 
-## 👩‍💻 Author
 
-Developed by **Upeka Sewwandi** 💙
-
----
-
-## 📄 License
-
-This project is created for educational purposes.
 
 
 
