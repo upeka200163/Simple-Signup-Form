@@ -26,7 +26,7 @@ This project features a unique **CSS-drawn panda** that reacts to user input —
 ### 🐼 Interactive Animation
 
 * Panda reacts to user actions
-* Covers its eyes 🫣 when typing in **Password / Confirm Password** fields
+* Covers its eyes when typing in **Password / Confirm Password** fields
 
 ### 🎨 Pure CSS Panda
 
